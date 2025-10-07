@@ -12,7 +12,7 @@ jobs:
   sync_and_cleanup:
     name: Sync upstream branch and cleanup old branches
     runs-on: ubuntu-latest
-    if: ${{ github.event.repository.fork }}
+    # if: ${{ github.event.repository.fork }}
 
     steps:
       # Step 1: 检出当前仓库
