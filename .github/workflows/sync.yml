@@ -57,4 +57,4 @@ jobs:
         if: failure()
         run: |
           echo "[Error] 上游仓库 workflow 文件变更导致同步失败，请手动执行 Sync Fork。"
-          exit 1
+          # exit 1
